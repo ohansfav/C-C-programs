@@ -1,19 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-int main()
+int main ()
 {
-    int count = 0;
-    int n;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
-
-    do{
-        n/=10;
-        ++count;
-    }
-    while(n ! = 0);
-    printf("Number of digit is: %d", count);
-
-    return 0;
+int n, m, Sum;
+n=25;
+m=30;
+printf ("The value of the first number is %d\n", n);
+//scanf ("%d", &n);
+/*Condition
+Else statement(s) Statement(s)
+True
+False True*/
+printf ("The value of the second number is %d%\n", m);
+//scanf ("%d", &m);
+Sum = n+m;
+printf ("The value of Sum is %d\n", Sum);
+//scanf ("%d", &Sum);
+if (Sum>50)
+{
+printf ("The value of Sum is greater than 50");
+}
+else
+{
+printf ("The value of Sum is less than 50");
+}
+return 0;
 }
