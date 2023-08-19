@@ -3,16 +3,16 @@
 
 int main(int argc, char**argu)
 {
-    /*int x,y,sum;
+    /*int x,y,sum; // declaring  the variables
+    
+    printf("first number: ");// first input
     scanf("%d", &x);
-    printf("first number: %d", x);
 
+    printf("second number: ");// second input
     scanf("%d", &y);
-    printf("second number: %d", y);
 
-    sum = x + y;
+    sum = x + y; // for the sum
 
-    scanf("%d", &sum);
     printf("the sum is %d\n", sum);*/
 
     /*int i = 0;
@@ -25,7 +25,7 @@ int main(int argc, char**argu)
     i++;
     }*/
 
-    int english, maths, biology, chemistry;
+    int english, maths, biology, chemistry; // to check if score is above 50
 
     printf("english score:");
     scanf("%d", &english);
