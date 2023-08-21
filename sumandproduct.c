@@ -4,17 +4,17 @@
 
 int main ()
 {
-int x,y,sum,prod;
+int x,y,sum,prod; // declaring variables 
 
-printf("the value of the first number is: ");
-scanf("%d", &x);
-printf("the value of the second number is: ");
-scanf("%d", &y);
-sum=x+y;
-prod=x*y;
-printf("the value of the sum number is: %d\n" , sum);
+printf("the value of the first number is: "); // for output
+scanf("%d", &x); // for input
+printf("the value of the second number is: ");// for output
+scanf("%d", &y); // for input
+sum=x+y; // for the sum of the two inputs
+prod=x*y; // product of the input
+printf("the value of the sum number is: %d\n" , sum); // the sum 
 //scanf("%d", &sum);
-printf("the value of the prod number is: %d\n" , prod);
+printf("the value of the prod number is: %d\n" , prod); // the product
 //scanf("%d", &prod);
 return 0;
 }
