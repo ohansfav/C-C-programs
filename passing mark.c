@@ -27,17 +27,17 @@ int main(int argc, char**argu)
 
     int english, maths, biology, chemistry; // to check if score is above 50
 
-    printf("english score:");
-    scanf("%d", &english);
+    printf("english score:"); // output for English score
+    scanf("%d", &english); // takes in input for English score
 
-    printf("maths score:");
-    scanf("%d", &maths);
+    printf("maths score:"); // output for maths
+    scanf("%d", &maths); // input for maths
 
-    printf("biology score:");
-    scanf("%d", &biology);
+    printf("biology score:"); // output for biology 
+    scanf("%d", &biology); // takes input for biology
 
-    printf("chemistry score:");
-    scanf("%d", &chemistry);
+    printf("chemistry score:"); // output for chemistry 
+    scanf("%d", &chemistry); // takes in input for chemistry 
 
    /* if((biology > 49) &&(chemistry > 49) && (english > 50) && (maths > 50 ){
        printf("admitted");
