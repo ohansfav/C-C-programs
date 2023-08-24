@@ -9,22 +9,22 @@ int main()
     int q;
 
     printf("how many student scores do you want to caculate:");
-    scanf("%d",&q);
+    scanf("%d",&q); // takes input for total number of students 
 
 
 
-    printf("total student inputed is: %d \n", q);
+    printf("total student inputed is: %d \n", q); // displays total number of students inputed 
 
-    for(int i=0;i<q;i++)
+    for(int i=0;i<q;i++) // repeat the printf below to Ny number of the prompted input
     {
         printf("Enter the score for the student %d ", i+1);
         scanf("%d", &stud);
     }
     if( stud >= 50){
-        printf("student pass", stud);
+        printf("student pass", stud); // pass the students if they meet the condition 
     }
     else{
-        printf("failed", stud);
+        printf("failed", stud); // fails them if below condition 
     };
 
 
