@@ -4,13 +4,13 @@ int main()
  int a=100;
  int g=10;
  int r=5;
- int sum;
- int prod;
- int div;
+ int sum; // for addition
+ int prod; // for multiplication 
+ int div;//for division 
 
- printf("%d\n",a);
- printf("%d \n",g);
- printf("%d \n",r);
+ printf("%d\n",a); // shows a input
+ printf("%d \n",g); // shows g input
+ printf("%d \n",r); // shows r input
 
  printf("sum is %d + %d + %d\n", a,g,r);
  sum=a+g+r; // calculate the sum of the given values
