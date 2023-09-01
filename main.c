@@ -10,10 +10,10 @@ int main()
    float area; // area is float because we might have decimal 
    //float PI = 3.142;
 
-   printf("what is radius : \n");// asks for radius input
+   printf("what is radius: \n");// asks for radius input
    scanf("%f", &r); // takes radius input
 
-   area = 3.142 * r * r; // formula for area 
+   area = 3.142 * r * r; // formula for area pixr²
 
    printf(" area is: %f", area); // print the area in float
 
