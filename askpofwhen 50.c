@@ -3,7 +3,7 @@
 
 int main()
 {
-    int stud; //students
+    int stud; //for students
     /*int stu1;
     int stu2;*/
     int q;
