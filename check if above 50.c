@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-int n, m, Sum; // declaring variables to be used
+int n, m, Sum; // declaring variables to be used in the prog
 n=25; // assigning value to n
 m=30; // assigning value to m
 printf ("The value of the first number is %d\n", n); //displays assigned variables
