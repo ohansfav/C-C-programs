@@ -3,7 +3,7 @@
 
 int main()
 {
-    int nat_no = 200;
+    int nat_no = 200; //number to be reached
     int i = 0;
 
     while (i<200){
