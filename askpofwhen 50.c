@@ -9,7 +9,7 @@ int main()
     int q;
 
     printf("how many student scores do you want to caculate:");
-    scanf("%d",&q); // takes input for total number of students 
+    scanf("%d",&q); // takes input for total number of students..
 
 
 
